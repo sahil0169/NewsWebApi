@@ -1,0 +1,49 @@
+.cards{
+    background-color: veg;
+    margin-top: 70px;
+    height:300px;
+    width: 900px;
+    margin-left: 400px;
+    //Changes requiredd
+    // height: calc(var(--screen-ratio)*20);
+    //     width: calc(var(--screen-ratio)*100);
+    //     margin: calc(var(--screen-ratio)*20);
+    border: 1px;
+    border-color: white;
+    box-shadow: 0px 3px 5px rgb(202, 189, 189);
+    border-style: solid;
+    
+    display: flex;
+    flex-direction: row;
+
+    .card_img{
+        // height: calc(var(--screen-ratio)*1);
+        // width: calc(var(--screen-ratio)*10);
+        // padding: calc(var(--screen-ratio)*20);
+      height:250px;
+      width:300px;
+        margin-left: 10px;
+        border: 1px;
+        border-color: white;
+        box-shadow: 0px 3px 5px rgb(202, 189, 189);
+        border-style: solid;
+        margin-top: 20px;
+        margin-right:10px;
+      
+      }
+      .card_description{
+        margin-bottom: 0px;
+      }
+      .card4_author{
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+      }
+      
+      .card_content{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: medium;
+      }
+  
+  }
