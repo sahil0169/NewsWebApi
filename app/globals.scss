@@ -1,61 +1,73 @@
+$screenratio:1vw;
+*{
+  padding:0;
+  margin:0;
 
-.Sidebar{
-  display: flex;
-  flex-direction: row;
+
+}
+
    .Headbar{
-     display: flex;
-     flex-direction: column;
-   }
- }
-.header{
-  
-    width: 1480px;
-    box-shadow: 0px 3px 5px rgb(202, 189, 189);
-    border-top: 0px;
-    background-color: white;
-    margin-left: 201px;
-    position: fixed;
-    margin-top: 0px;
-  
-    .head_img{height: 50px;
-      width: 100px;
-    margin-left: 600px;}
+    display: flex;
+    flex-direction: column;
   }
+.header{
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(202, 189, 189);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   
-  
-  
-  .Side1{
-    /* background-color:white; */
-    width: 200px;
-    /* height: 800px; */
-    position: fixed;
+    .head_img{
+      height: calc(($screenratio)*4);
+      width: calc(($screenratio)*10);
+      margin-left: calc(($screenratio)*38);;
+  }
+
     .Side2{
-      width: 200px;
-      height: 55px;
+      width: calc(($screenratio)*12);
+      height: calc(($screenratio)*4);
+      font-size: calc(($screenratio)*1.5);
       background-color: grey;
       box-shadow: 0px 3px 5px rgb(202, 189, 189);
       border: 0px;
-      margin-right:0px ;
-      font-size: larger;
+      
     }
     
   .Side3{
-    font-size: larger;
-    border: 2px;
-    border-color: black;
-    color: white;
+    
     text-align: center;
+    font-size: calc(($screenratio)*1.5);
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    margin: 10px;
+    padding: 10px;
+    
   }
   .Side4{
     background-color: gray;
-    width: 200px;
-    height: 800px;
-    margin-left: opx;
+    width: calc(($screenratio)*12);
+    height: 100%;
+    margin-top: calc(($screenratio)*4);
     position: fixed;
-  
     
   }
   }
+  
+  
+  
+  // .Sidebar{
+  //   /* background-color:white; */
+  //   /* height: 800px; */
+  //   display: flex;
+  // flex-direction: row;
+    
+  //   position: fixed;
+    
+  //}
   .fix{
     display: flex;
     flex-direction: column;

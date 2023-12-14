@@ -9,19 +9,18 @@ export default function Side() {
     function Bar() { 
         return (
             <div className="Side4">
-                <div className="Side3">
+                <div >
         
-                    <Link href="/?category=general">General</Link>
-                    <br/>
-                    <Link href="/?category=sports">Sports</Link>
-                    <br/>
-                    <Link href="/?category=technology">Technology</Link>
-                    <br/>
-                    <Link href="/?category=entertainment">Enteratinment</Link>
-                    <br/>
-                    <Link href="/?category=business">Business</Link>
-                    <br/>
-                    <Link href="/?category=science">Science</Link>
+                    <Link href="/?category=general" className="Side3">General</Link>
+                    
+                    <Link href="/?category=sports" className="Side3">Sports</Link>
+                  
+                    <Link href="/?category=technology" className="Side3">Technology</Link>
+                    
+                    <Link href="/?category=entertainment" className="Side3">Enteratinment</Link>
+                   <Link href="/?category=business" className="Side3">Business</Link>
+                    
+                    <Link href="/?category=science" className="Side3">Science</Link>
                 
                 </div>
 
@@ -32,7 +31,7 @@ export default function Side() {
     const [count, setCount] = useState(false)
     return (
 
-        <div className="Side1">
+        <div >
             <button className="Side2" onClick={()=>setCount(prevCount=>!prevCount)}>MENU</button>
             { count==true && Bar()}    
         </div>

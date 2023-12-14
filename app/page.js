@@ -18,7 +18,7 @@ async function page({searchParams}) {
 let dataobj = await getnews(searchParams.category)
 const cardData=dataobj.articles;
 return (
-    <div className="Headbar">
+    <div >
       { 
         (!cardData)?(null):
             cardData?.map(item => <Cards key={item.source.id}  {...item} />)

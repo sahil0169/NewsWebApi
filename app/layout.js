@@ -17,15 +17,15 @@ export default function RootLayout({ children }) {
        
       </head>
       <body>
-      <div className="Sidebar">
-         <Side  />
-         <div className="Hidebar">
+      <div >
+         {/* <Side  /> */}
+         <div className='Headbar'>
             <Header />
-            {children}
+            <div>
+          {children}
           </div>
-          <div>
-            
           </div>
+          
       </div>
  
 

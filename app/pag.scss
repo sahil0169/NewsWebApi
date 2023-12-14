@@ -1,41 +1,40 @@
+$screenratio:1vw;
+*{
+  padding:0;
+  margin:0;
+
+
+}
 .cards{
-    background-color: veg;
-    margin-top: 70px;
-    height:300px;
-    width: 900px;
-    margin-left: 400px;
-    //Changes requiredd
-    // height: calc(var(--screen-ratio)*20);
-    //     width: calc(var(--screen-ratio)*100);
-    //     margin: calc(var(--screen-ratio)*20);
+     background-color: veg;
+    height: calc(($screenratio)*20);
+    width: calc(($screenratio)*60);
+    margin: calc(($screenratio)*3);
+    margin-left: calc(($screenratio)*25);
     border: 1px;
     border-color: white;
     box-shadow: 0px 3px 5px rgb(202, 189, 189);
     border-style: solid;
-    
     display: flex;
     flex-direction: row;
+    border: 1px;
+   
 
     .card_img{
-        // height: calc(var(--screen-ratio)*1);
-        // width: calc(var(--screen-ratio)*10);
-        // padding: calc(var(--screen-ratio)*20);
-      height:250px;
-      width:300px;
-        margin-left: 10px;
+      height: calc(($screenratio)*17);
+      width: calc(($screenratio)*36);
+        margin: calc(($screenratio)*1);
         border: 1px;
         border-color: white;
         box-shadow: 0px 3px 5px rgb(202, 189, 189);
         border-style: solid;
-        margin-top: 20px;
-        margin-right:10px;
       
       }
       .card_description{
-        margin-bottom: 0px;
+        font-size: calc(($screenratio)*1.2);
       }
       .card4_author{
-        margin-top: 0px;
+        font-size: calc(($screenratio)*0.9);
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 100;
       }
@@ -43,7 +42,9 @@
       .card_content{
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 100;
-        font-size: medium;
+        font-size: calc(($screenratio)*1.2);
+        overflow: hidden;
+        text-overflow: "-";
       }
   
   }
