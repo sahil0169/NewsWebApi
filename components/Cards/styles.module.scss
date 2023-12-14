@@ -1,0 +1,49 @@
+.cards {
+  background-color: veg;
+  height: calc((var(--screen-ratio)) * 20);
+  width: calc((var(--screen-ratio)) * 60);
+  margin: calc((var(--screen-ratio)) * 3);
+  margin-left: calc((var(--screen-ratio)) * 25);
+  border: 1px;
+  border-color: white;
+  box-shadow: 0px 3px 5px rgb(202, 189, 189);
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+
+  .card_img {
+    height: calc((var(--screen-ratio)) * 17);
+    width: calc((var(--screen-ratio)) * 36);
+    margin: calc((var(--screen-ratio)) * 1);
+    border: 1px;
+    border-color: white;
+    box-shadow: 0px 3px 5px rgb(202, 189, 189);
+    border-style: solid;
+  }
+  .card_description {
+    font-size: calc((var(--screen-ratio)) * 1.2);
+    text-decoration: none;
+  }
+  .card4_author {
+    font-size: calc((var(--screen-ratio)) * 0.9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+
+  .card_content {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: calc((var(--screen-ratio)) * 1.2);
+    overflow: hidden;
+    text-overflow: "-";
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:hover{
+    color: red;
+  }
+}

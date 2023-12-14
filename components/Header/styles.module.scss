@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  height: calc((var(--screen-ratio)) * 5);
+  box-shadow: 0px 3px 5px rgb(202, 189, 189);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+ z-index: 10;
+
+  .head_img {
+    height: calc((var(--screen-ratio)) * 5);
+    width: calc((var(--screen-ratio)) * 10);
+    margin-left: calc((var(--screen-ratio)) * 38);
+  }
+
+  .menu {
+    width: calc((var(--screen-ratio)) * 12);
+    height: calc((var(--screen-ratio)) * 5);
+    font-size: calc((var(--screen-ratio)) * 1.5);
+    background-color: rgb(91, 83, 83);
+    box-shadow: 0px 3px 5px rgb(202, 189, 189);
+    border: 0px;
+    text-align: center;
+    color: beige;
+  }
+
+  .categoryLink {
+  
+    text-decoration: none;
+    color: white;
+    
+  }
+  .Side4 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(91, 83, 83);
+    width: calc((var(--screen-ratio)) * 12);
+    height: 100%;
+    margin-top: calc((var(--screen-ratio)) * 4);
+    position: fixed;
+    font-size: calc((var(--screen-ratio)) * 1.5);
+    text-align: center;
+  }
+}
+
+.Trial{
+padding-top: 10px;
+margin-top: 30px;
+font-size: calc((var(--screen-ratio)) * 1.5);
+}
