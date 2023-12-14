@@ -1,8 +1,7 @@
-// import { Inter } from 'next/font/google'
- import './globals.scss'
+
+import './globals.scss'
 import Header from "components/Header"
-import Side from "components/side"
-// const inter = Inter({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'News App',
@@ -17,8 +16,7 @@ export default function RootLayout({ children }) {
        
       </head>
       <body>
-      <div >
-         {/* <Side  /> */}
+     
          <div className='Headbar'>
             <Header />
             <div>
@@ -26,7 +24,7 @@ export default function RootLayout({ children }) {
           </div>
           </div>
           
-      </div>
+      
  
 
       </body>

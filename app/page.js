@@ -1,5 +1,3 @@
-import Header from "components/Header"
-import Side from "components/side"
 import Cards from "components/cards"
 import './pag.scss'
 

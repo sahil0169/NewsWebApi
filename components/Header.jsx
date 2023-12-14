@@ -8,7 +8,7 @@ export default function Header() {
     function Bar() { 
         return (
             <div className="Side4">
-                <div >
+                
         
                     <Link href="/?category=general" className="Side3">General</Link>
                     <br/>
@@ -22,7 +22,7 @@ export default function Header() {
                     <br/>
                     <Link href="/?category=science" className="Side3">Science</Link>
                 
-                </div>
+               
 
             </div>
             
